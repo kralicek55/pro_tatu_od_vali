@@ -1,9 +1,13 @@
 basic.showIcon(IconNames.Heart)
-basic.pause(1000)
-basic.showString("Hello!")
 cuteBot.colorLight(cuteBot.RGBLights.ALL, 0x00ffff)
-basic.pause(1000)
+basic.pause(500)
 cuteBot.forward()
+basic.pause(1500)
+cuteBot.stopcar()
+basic.pause(1000)
+cuteBot.backforward()
+basic.pause(1500)
+cuteBot.stopcar()
 basic.forever(function () {
     basic.pause(1000)
     basic.showLeds(`
@@ -22,10 +26,10 @@ basic.forever(function () {
         `)
     basic.showLeds(`
         . . # . .
-        . . # . .
-        . . # . .
         . # # # .
         . . # . .
+        . . # . .
+        . . # # .
         `)
     basic.showLeds(`
         . . . . .
