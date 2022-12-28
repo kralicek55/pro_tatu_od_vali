@@ -5,6 +5,7 @@ cuteBot.forward()
 basic.pause(1000)
 cuteBot.forward()
 basic.pause(1000)
+cuteBot.stopcar()
 basic.forever(function () {
     basic.pause(1000)
     basic.showLeds(`
